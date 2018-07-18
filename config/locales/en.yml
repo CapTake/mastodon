@@ -10,6 +10,7 @@ en:
     contact_missing: Not set
     contact_unavailable: N/A
     description_headline: What is %{domain}?
+    documentation: Documentation
     domain_count_after: other instances
     domain_count_before: Connected to
     extended_description_html: |
@@ -27,10 +28,14 @@ en:
     generic_description: "%{domain} is one server in the network"
     hosted_on: Mastodon hosted on %{domain}
     learn_more: Learn more
+    explore: Explore
+    open_source_html: Mastodon is free, open-source software. You can contribute or report issues on the code repository at <a href='%{source_url}'>%{repository}</a> (v%{version}).
     other_instances: Instance list
     source_code: Source code
     status_count_after: statuses
     status_count_before: Who authored
+    terms: Terms of service
+    privacy_policy: Privacy policy
     user_count_after: users
     user_count_before: Home to
     what_is_mastodon: What is Mastodon?

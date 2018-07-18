@@ -1,0 +1,15 @@
+.footer
+  %p
+    = link_to t('about.what_is_mastodon'), 'https://joinmastodon.org/'
+    ·
+    = link_to t('about.explore'), about_path
+    ·
+    = link_to t('about.about_this'), about_more_path
+    ·
+    = link_to t('about.terms'), terms_path
+    ·
+    = link_to t('about.privacy_policy'), terms_path
+    ·
+    = link_to t('about.documentation'), 'https://github.com/tootsuite/documentation'
+
+  %p= t 'about.open_source_html', version: Mastodon::Version.to_s, repository: Mastodon::Version.repository, source_url: Mastodon::Version.source_url
